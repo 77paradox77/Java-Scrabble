@@ -51,14 +51,14 @@ public class ScrabbleTest {
     assertEquals(testOutput, testScrabble.calculateScore(testInput));
   }
 
+
   @Test
-  public void calculateScore_returnsScoreForSingleLetter_10() {
+  public void calculateScore_returnsScoreForWord_5() {
     Scrabble testScrabble = new Scrabble();
-    Integer testOutput = 10;
-    String testInput = "q";
+    Integer testOutput = 5;
+    String testInput = "cat";
     assertEquals(testOutput, testScrabble.calculateScore(testInput));
   }
-
 
 
 
